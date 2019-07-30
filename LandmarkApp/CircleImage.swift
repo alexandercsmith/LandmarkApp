@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct CircleImage: View {
+    // Create Circle Image with Border & Shadow
+    
     var body: some View {
         Image("turtlerock")
             .clipShape(Circle())
